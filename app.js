@@ -22,7 +22,7 @@ window.addEventListener('load', () => {
                 })
                 .then(data => {
                     console.log(data);
-                    const { temperature, summary, icon} = data.hourly;
+                    const { temperature, summary, icon} = data.currently;
                     console.log(temperature, summary);
 
                     //set temp, desc
